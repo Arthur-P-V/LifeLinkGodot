@@ -90,7 +90,7 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mb38n"]
 radius = 9.0
-height = 22.0
+height = 20.0
 
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
