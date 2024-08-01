@@ -106,3 +106,8 @@ frame_progress = 0.0807125
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 4)
 shape = SubResource("CapsuleShape2D_mb38n")
+
+[node name="WallCheck" type="RayCast2D" parent="."]
+position = Vector2(0, 3)
+rotation = -1.5708
+target_position = Vector2(0, 16)
